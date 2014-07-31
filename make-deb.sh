@@ -24,7 +24,7 @@ cd to_deb/
 
 echo "Creating necessary directories"
 
-mkdir -p opt/sm/$deb_name
+mkdir -p opt/$deb_name
 mkdir -p etc/init
 mkdir -p bin
 
