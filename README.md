@@ -18,7 +18,7 @@ Debbie will grab your project's name and version from your `package.json` when b
 
 ## Dependencies
 
-* Some of the commands `make-deb.sh` relies on (notably, the `grep` commands used to scrape out the name and version from `package.json` will currently only work reliably on linux. 
+* Some of the commands `make-deb.sh` relies on (notably, the `grep` commands used to scrape out the name and version from `package.json`) will currently only work reliably on linux. 
 * `make-deb.sh` makes use of fpm for the actual packaging, which it will install for you if it is not installed. This does require rubygems.
 
 *The script is not complicated, edit it as you see fit!*
